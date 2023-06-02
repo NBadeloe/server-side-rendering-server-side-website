@@ -2,6 +2,8 @@
 import express from "express";
 import fetch from "node-fetch";
 import { postJson } from "../helpers/fetchWrapper.js";
+import app from '../index';
+module.exports = app;
 
 //start server met express
 const server = express();
