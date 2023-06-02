@@ -1,7 +1,7 @@
 // importeer packages van uit node modules
 import express from "express";
 import fetch from "node-fetch";
-import { postJson } from "../helpers/fetchWrapper.js";
+import { postJson } from "./helpers/fetchWrapper.js";
 
 //start server met express
 const server = express();
