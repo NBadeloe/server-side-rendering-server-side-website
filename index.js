@@ -24,6 +24,9 @@ server.use(express.urlencoded({ extended: true }));
 server.set("view engine", "ejs");
 server.set("views", "views");
 
+var path = require ('path');
+server.use(express.static(path.join(__dirname + '../public')));
+
 // public map linken aan ejs
 server.use(express.static("public"));
 
