@@ -1,7 +1,8 @@
 // importeer packages van uit node modules
-import express from "express";
-import fetch from "node-fetch";
-import { postJson } from "../helpers/fetchWrapper.js";
+const express = require("express") ;
+const fetch = require("node-fetch");
+
+const path = require("node:path")
 
 //start server met express
 const server = express();
@@ -24,7 +25,7 @@ server.use(express.urlencoded({ extended: true }));
 server.set("view engine", "ejs");
 server.set("views", "views");
 
-var path = require ('path');
+
 server.use(express.static(path.join(__dirname + '../public')));
 
 // public map linken aan ejs

@@ -64,6 +64,7 @@ a{
     border:1px solid #214D12 ;
     border-radius: 2px;
     display: flex;
+    flex-direction: row;
     margin: 1em;
     padding: 1em;
     max-width: 22em;
@@ -72,6 +73,7 @@ a{
  article > img {
     margin: 2em 0.5em;
     margin-bottom: 0em;
+    display: flex;
 
     max-width: 5em;
     max-height: 5em;
@@ -80,8 +82,8 @@ a{
 
  article > .card-detail{
     display: flex;
-    margin: 1em;
-    flex-direction: row;
+    margin-top: -3em;
+    flex-direction: column;
     text-align: left;
  }
 
@@ -91,6 +93,10 @@ a{
     height: 1em;
     align-self: end;
     position: absolute;
+ }
+
+ .card-detail > p{
+  width: 10em;
  }
 
 
