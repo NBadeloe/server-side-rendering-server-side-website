@@ -8,8 +8,6 @@ Een website voor buurtcampus oost gemaakt met node.js, express, ejs en een rest 
   * [Beschrijving](#beschrijving)
   * [Gebruik](#gebruik)
   * [Kenmerken](#kenmerken)
-  * [Installatie](#installatie)
-  * [Bronnen](#bronnen)
   * [Licentie](#licentie)
 
 ## Beschrijving
